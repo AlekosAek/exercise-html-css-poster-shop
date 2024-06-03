@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  width: 100vw;
+  padding: 0px;
+  overflow-x: hidden;
+  font-size: calc(15px + 0.390625vw);
+
+
+}
+
+.allPost img {
+  max-width: 22vw;
+
+}
+
+#heroImage {
+  width: 100vw;
+}
+
+.allPost {
+  width: 100%;
+  padding-left: 15vw;
+  padding-right: 15vw;
+
+}
+
+.first-section {
+  background-image: url("./poster.png");
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.navButton {
+  background-color: inherit;
+  border: none;
+  margin: 4vh;
+}
+
+
+.firstGroup {
+  display: grid;
+  grid-template-rows: 13vh 13vh 13vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.firstPost {
+  color: white;
+
+}
+
+.secondPost {
+  color: white;
+}
+
+.thirdPost {
+  color: white;
+}
+
+.rubrik {
+  font-size: 4vw;
+  margin-bottom: 1vh;
+}
+
+.secondGroup {
+  display: grid;
+  grid-template-rows: 13vh 13vh 13vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2vw;
+  color: white;
+  margin-bottom: 10vh;
+
+}
+
+.thirdGroup {
+  display: grid;
+  grid-template-rows: 13vh 13vh 13vh;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2vw;
+  color: white;
+  margin-bottom: 10vh;
+
+
+}
+
+.fourthGroup {
+  display: grid;
+  grid-template-rows: 13vh 13vh;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+  grid-template-rows: 22.5vh 22.5vh;
+  color: white;
+  margin-bottom: 10vh;
+
+}
+
+.takeMe {
+  margin-top: 2vh;
+  padding: 1vh;
+  text-align: center;
+  background-color: rgb(63, 42, 38);
+  color: white;
+}
+
+footer {
+  height: 30vh;
+  background-color: gray;
+
+}
+.allFooter{
+  display: grid;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  grid-template-rows: 20% 15% 10% 10%;
+  grid-template-columns: 1fr 1fr 1fr;
+ color: white;
+}
+.footerFirst {
+  margin-top: 5vh;
+}
+.footerFirst p:nth-child(1){
+  font-size: 4vh;
+  margin-bottom: 1vh;
+}
+.footerSec p:nth-child(1){
+  font-size: 4vh;
+  margin-bottom: 1vh;
+}
+
+.footerthird p:nth-child(1){
+  font-size: 4vh;
+  margin-bottom: 1vh;
+}
+
+.footerSec {
+  margin-top: 5vh;
+}
+
+.footerthird {
+  margin-top: 5vh;
+
+}
+@media screen and (max-width: 500px) {
+  .firstGroup {
+    display: grid;
+    grid-template-rows: 20vh 20vh 20vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+}
