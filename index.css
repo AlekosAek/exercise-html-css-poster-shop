@@ -16,7 +16,7 @@ body {
 }
 
 .allPost img {
-  max-width: 22vw;
+  width: 100%;
 
 }
 
@@ -49,11 +49,11 @@ body {
 
 .firstGroup {
   display: grid;
-  grid-template-rows: 13vh 13vh 13vh;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2vw;
   margin-top: 10vh;
-  margin-bottom: 10vh;
+  height: 50vh;
 }
 
 .firstPost {
@@ -70,49 +70,60 @@ body {
 }
 
 .rubrik {
-  font-size: 4vw;
+  font-size: 3vw;
   margin-bottom: 1vh;
 }
 
 .secondGroup {
   display: grid;
-  grid-template-rows: 13vh 13vh 13vh;
+  grid-template-rows:  1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2vw;
   color: white;
   margin-bottom: 10vh;
+  margin-top: 10vh;
+  height: 50vh;
 
 }
 
 .thirdGroup {
   display: grid;
-  grid-template-rows: 13vh 13vh 13vh;
-
+  grid-template-rows:  1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2vw;
   color: white;
-  margin-bottom: 10vh;
-
+  margin-bottom: 5vh;
+  margin-top: 10vh;
+  height: 50vh;
 
 }
 
 .fourthGroup {
   display: grid;
-  grid-template-rows: 13vh 13vh;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 2vw;
-  grid-template-rows: 22.5vh 22.5vh;
   color: white;
+  height: 50vh;
   margin-bottom: 10vh;
-
+  
 }
 
+.tenthPost{
+  background-color: white;
+  color: black;
+}
+.eleventhPost{
+  background-color: white;
+  color: black;
+}
 .takeMe {
   margin-top: 2vh;
   padding: 1vh;
   text-align: center;
   background-color: rgb(63, 42, 38);
   color: white;
+  
 }
 
 footer {
