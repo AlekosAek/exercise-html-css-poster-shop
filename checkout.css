@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Fira Sans";
+}
+
+
+/*first section*/
+header {
+  width: 100%;
+  height: 50vh;
+  background-color: #3DE07E;
+  font-size: calc(60px + 0.390625vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navButton {
+  background-color: inherit;
+  border: none;
+  align-self: flex-start;
+  margin: 4vh;
+}
+
+header p {
+  align-self: center;
+}
+
+#ninjahead {
+  width: 200px;
+  align-self: center;
+}
+
+.varor {
+  padding-top: 5vh;
+  background-color: black;
+  height: 100vh;
+}
+
+.varor>p {
+  font-size: calc(22.5px + 0.390625vw);
+  color: white;
+  margin-bottom: 1vh;
+  margin-left: 30vw;
+}
+
+.all-varors {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  display: grid;
+
+  grid-template-areas:
+    "photo1 photo2"
+    "parag1 parag2"
+    "but1 but2";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 70% 10% 10%;
+  gap: 1vw;
+  height: 50vh;
+  background-color: white;
+}
+
+.taBort1 {
+  background-color: #E83F57;
+  color: rgb(21, 16, 16);
+  grid-area: but1;
+  margin-left: 2vw;
+  width: 50%;
+  color: white;
+
+}
+
+.all-varors>p {
+  grid-area: parag1;
+  color: black;
+  font-size: calc(15px + 0.390625vw);
+  margin-left: 2vw;
+
+}
+
+#foto {
+  width: 100%;
+  height: 100%;
+  grid-area: photo1;
+}
+
+
+
+#tränare {
+  width: 100%;
+  height: 100%;
+  grid-area: photo2;
+
+}
+
+.all-varors p:nth-of-type(2) {
+  grid-area: parag2;
+}
+
+.taBort2 {
+  background-color: #E83F57;
+  color: rgb(21, 16, 16);
+  grid-area: but2;
+  margin-left: 2vw;
+  width: 50%;
+  color: white;
+
+}
+
+
+.first {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  background-color: rgba(237, 54, 54, 0.2);
+  color: rgba(238, 238, 238, 0.8);
+  padding: 1vw;
+}
+
+.second {
+  margin-top: 1vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  color: white;
+  padding: 1vw;
+}
+
+.third {
+  margin-top: 1vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  color: white;
+  padding: 1vw;
+}
+
+.border {
+  margin-top: 1vw;
+  border: 2px solid white;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+.fourth {
+  margin-top: 1vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr;
+  grid-template-areas: "totalt . number";
+  color: white;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  color: white;
+  padding: 1vw;
+}
+
+.fourth p:nth-of-type(2) {
+  grid-area: number;
+}
+
+
+.allFooter {
+  display: grid;
+  padding-right: 25vw;
+  padding-left: 25vw;
+  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  height: 35vh;
+  color: white;
+  background-color: gray; 
+  padding-top:5vh ;
+}
+.footerFirst p:nth-of-type(1){
+  font-size: calc(21px + 0.390625vw);}
+
+  .footerSec p:nth-of-type(1){
+    font-size: calc(21px + 0.390625vw);
+  }
+  
+
+/* .table {
+  margin-top: 5vh;
+  height: 40vh;
+  color: white;
+  display: grid;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  grid-gap: 1px;
+} */
+
+
+
+/*   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 10% 10% 10%;
+  grid-template-areas: "vara antal pris"
+    "fotograf ant1 sek1"
+    "Crossfit ant2 sek2"
+    ". . ."
+    "Totalt . sek3";
+    --border: 2px solid white;
+
+} */
+
+/* .table p:nth-of-type(3),
+.table p:nth-of-type(2),
+.table p:nth-of-type(1) {
+  background-color: rgba(237, 54, 54, 0.2);
+  color: rgba(238, 238, 238, 0.2);
+  align-self: center;
+
+} */
+
+/* .table p:nth-of-type(4) {
+  grid-area: fotograf
+}
+
+.table p:nth-of-type(5) {
+  grid-area: ant1
+}
+
+.table p:nth-of-type(6) {
+  grid-area: sek1
+}
+
+.table p:nth-of-type(7) {
+  grid-area: Crossfit;
+  border-bottom: var(--border);
+
+}
+
+
+.table p:last-of-type {
+  grid-area: sek3;
+}
+
+.table p:nth-of-type(8) {
+  grid-area: ant2;
+  border-bottom: var(--border);
+
+}
+
+.table p:nth-of-type(9) {
+  grid-area: sek2;
+  border-bottom: var(--border);
+
+}
+
+
+
+.gimmie {
+  margin: 2vh;
+} */

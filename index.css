@@ -81,7 +81,7 @@ body {
   gap: 2vw;
   color: white;
   margin-bottom: 10vh;
-  margin-top: 10vh;
+  margin-top: 30vh;
   height: 50vh;
 
 }
@@ -93,7 +93,7 @@ body {
   gap: 2vw;
   color: white;
   margin-bottom: 5vh;
-  margin-top: 10vh;
+  margin-top: 30vh;
   height: 50vh;
 
 }
@@ -105,10 +105,11 @@ body {
   gap: 2vw;
   color: white;
   height: 50vh;
-  margin-bottom: 10vh;
+  margin-bottom: 30vh;
+  margin-top: 30vh;
+
   
 }
-
 .tenthPost{
   background-color: white;
   color: black;
@@ -164,13 +165,17 @@ footer {
   margin-top: 5vh;
 
 }
-@media screen and (max-width: 500px) {
-  .firstGroup {
+@media screen and (max-width: 0px) {
+  
+  
+  
+  .allPost {
     display: grid;
-    grid-template-rows: 20vh 20vh 20vh;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
     gap: 2vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    
   }
 }
