@@ -46,69 +46,67 @@ header p {
   font-size: calc(22.5px + 0.390625vw);
   color: white;
   margin-bottom: 1vh;
-  margin-left: 30vw;
+  margin-left: 15vw;
 }
 
 .all-varors {
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   display: grid;
-
-  grid-template-areas:
-    "photo1 photo2"
-    "parag1 parag2"
-    "but1 but2";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 70% 10% 10%;
   gap: 1vw;
   height: 50vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.first_photo {
+  display: grid;
+  grid-template-rows: 70% 15% 15%;
   background-color: white;
 }
 
 .taBort1 {
   background-color: #E83F57;
   color: rgb(21, 16, 16);
-  grid-area: but1;
-  margin-left: 2vw;
   width: 50%;
   color: white;
+  margin-left: 1vw;
+  padding: 0.7vw;
+  align-self: center;
 
 }
 
-.all-varors>p {
-  grid-area: parag1;
-  color: black;
+.first_photo>p {
+  color: #000000;
   font-size: calc(15px + 0.390625vw);
-  margin-left: 2vw;
-
+  padding-left: 1vw;
+  align-self: center;
 }
 
 #foto {
   width: 100%;
   height: 100%;
-  grid-area: photo1;
 }
 
 
+.second_photo {
+  display: grid;
+  grid-template-rows: 70% 15% 15%;
+  background-color: white;
+
+}
 
 #tränare {
   width: 100%;
   height: 100%;
-  grid-area: photo2;
 
 }
 
-.all-varors p:nth-of-type(2) {
-  grid-area: parag2;
-}
-
-.taBort2 {
-  background-color: #E83F57;
-  color: rgb(21, 16, 16);
-  grid-area: but2;
-  margin-left: 2vw;
-  width: 50%;
-  color: white;
+.second_photo>p {
+  color: #000000;
+  font-size: calc(15px + 0.390625vw);
+  padding-left: 1vw;
+  align-self: center;
 
 }
 
@@ -117,8 +115,8 @@ header p {
   margin-top: 5vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   background-color: rgba(237, 54, 54, 0.2);
   color: rgba(238, 238, 238, 0.8);
   padding: 1vw;
@@ -129,8 +127,8 @@ header p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: white;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   color: white;
   padding: 1vw;
 }
@@ -140,8 +138,8 @@ header p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: white;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   color: white;
   padding: 1vw;
 }
@@ -149,9 +147,8 @@ header p {
 .border {
   margin-top: 1vw;
   border: 2px solid white;
-  width: 50vw;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 .fourth {
@@ -161,8 +158,8 @@ header p {
   grid-row: 1fr;
   grid-template-areas: "totalt . number";
   color: white;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   color: white;
   padding: 1vw;
 }
@@ -171,26 +168,76 @@ header p {
   grid-area: number;
 }
 
+.gimmie {
+  padding: 1vw;
+  background-color: #E83F57;
+  color: white;
+  margin-left: 65vw;
+  margin-top: 2vh;
+}
 
 .allFooter {
   display: grid;
-  padding-right: 25vw;
-  padding-left: 25vw;
-  grid-template-rows: 20% 20% 20% 20%;
+  padding-right: 15vw;
+  padding-left: 15vw;
   grid-template-columns: 1fr 1fr 1fr;
   color: white;
   height: 35vh;
   color: white;
-  background-color: gray; 
-  padding-top:5vh ;
+  background-color: rgb(106, 101, 101);
+  padding-top: 5vh;
 }
-.footerFirst p:nth-of-type(1){
-  font-size: calc(21px + 0.390625vw);}
 
-  .footerSec p:nth-of-type(1){
-    font-size: calc(21px + 0.390625vw);
-  }
-  
+.footerFirst{
+  display: grid;
+  grid-template-rows: 20% 10% 10% 10%;
+}
+ .footerFirst p:nth-of-type(1) {
+  font-size: calc(21px + 0.390625vw);
+}
+
+.footerSec{
+  display: grid;
+  grid-template-rows: 20% 10% 10%;
+
+}
+
+.footerSec p:nth-of-type(1) {
+  font-size: calc(21px + 0.390625vw);
+
+} 
+.footerthird{
+  display: grid;
+  align-items: center;
+  grid-template-rows: 20% 20%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  grid-template-areas: "social social social social"
+                        "twit face linke insta";
+}
+
+.footerthird p:nth-of-type(1) {
+  font-size: calc(21px + 0.390625vw);
+  grid-area: social;
+  height: 100%;
+}
+
+#twitter{
+  grid-area: twit;
+}
+#facebook{
+  grid-area: face;
+
+}
+#linkedin{
+  grid-area: linke;
+}
+
+#insta{
+  grid-area:insta;
+
+}
+
 
 /* .table {
   margin-top: 5vh;
