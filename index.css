@@ -7,18 +7,14 @@
 body {
   background-color: black;
   width: 100vw;
-  width: 100vw;
-  padding: 0px;
   overflow-x: hidden;
   font-size: calc(15px + 0.390625vw);
 
-
 }
+
 header {
   width: 100%;
-  height: 50vh;
   background-color: #3DE07E;
-  font-size: calc(60px + 0.390625vw);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,6 +26,7 @@ header {
   align-self: flex-start;
   margin: 4vh;
 }
+
 #ninjahead {
   width: 20vw;
   align-self: center;
@@ -38,12 +35,13 @@ header {
 
 header p {
   align-self: center;
+  font-size: calc(60px + 0.390625vw);
 }
+
 .allPost img {
   width: 100%;
 
 }
-
 
 .allPost {
   width: 100%;
@@ -71,8 +69,9 @@ header p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2vw;
-  height: 60vh;
   margin-top: 15vh;
+  margin-bottom: 15vh;
+
 }
 
 
@@ -83,7 +82,8 @@ header p {
 .secondPost {
   color: white;
 }
-.lorem{
+
+.lorem {
   font-size: calc(12px + 0.390625vw);
   margin-left: 0.5vw;
 
@@ -104,7 +104,8 @@ header p {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2vw;
   color: white;
-  height: 60vh;
+  margin-bottom: 15vh;
+
 }
 
 .thirdGroup {
@@ -112,67 +113,77 @@ header p {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2vw;
   color: white;
-  height: 60vh;
+  margin-bottom: 15vh;
+
 }
 
 .fourthGroup {
   display: grid;
-  grid-template-columns: minmax(25vw,500px)
-                        minmax(25vw,500px);
+  grid-template-columns: 1fr 1fr;
   gap: 2vw;
   color: white;
-  height: 60vh;
+  margin-bottom: 15vh;
+
 
 }
-.tenthPost{
+
+.tenthPost {
   background-color: white;
   color: black;
 }
-.eleventhPost{
+
+.eleventhPost {
   background-color: white;
   color: black;
 }
+
 .takeMe {
   margin-top: 2vh;
   padding: 1vh;
   text-align: center;
   background-color: #E83F57;
   color: white;
-  
+
 }
-.tenthPost>.takeMe{
+
+.tenthPost>.takeMe {
   margin-left: 1vw;
 }
-.eleventhPost>.takeMe{
+
+.eleventhPost>.takeMe {
   margin-left: 1vw;
 }
+
 footer {
-  height: 30vh;
   background-color: gray;
 
 }
-.allFooter{
+
+.allFooter {
   display: grid;
   padding-right: 5vw;
   padding-left: 5vw;
   grid-template-columns: 1fr 1fr 1fr;
- color: white;
- margin-top: 15vh;
+  color: white;
+  margin-top: 15vh;
 }
+
 .footerFirst {
   margin-top: 5vh;
 }
-.footerFirst p:nth-child(1){
-  font-size: 4vh;
-  margin-bottom: 1vh;
-}
-.footerSec p:nth-child(1){
-  font-size: 4vh;
+
+.footerFirst p:nth-child(1) {
+  font-size: calc(22.5px + 0.390625vw);
   margin-bottom: 1vh;
 }
 
-.footerthird p:nth-child(1){
-  font-size: 4vh;
+.footerSec p:nth-child(1) {
+  font-size: calc(22.5px + 0.390625vw);
+  margin-bottom: 1vh;
+}
+
+.footerthird p:nth-child(1) {
+  font-size: calc(22.5px + 0.390625vw);
   margin-bottom: 1vh;
 }
 
@@ -184,5 +195,8 @@ footer {
   margin-top: 5vh;
 
 }
+
+
+  
 
 

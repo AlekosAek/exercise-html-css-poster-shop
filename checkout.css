@@ -12,7 +12,6 @@ body {
 /*first section*/
 header {
   width: 100%;
-  height: 50vh;
   background-color: #3DE07E;
   font-size: calc(60px + 0.390625vw);
   display: flex;
@@ -29,17 +28,17 @@ header {
 
 header p {
   align-self: center;
+
 }
 
 #ninjahead {
-  width: 200px;
+  width: 20vw;
   align-self: center;
 }
 
 .varor {
   padding-top: 5vh;
   background-color: black;
-  height: 100vh;
 }
 
 .varor>p {
@@ -55,7 +54,6 @@ header p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1vw;
-  height: 50vh;
   background-color: rgb(0, 0, 0);
 }
 
@@ -110,7 +108,6 @@ header p {
 
 }
 
-
 .first {
   margin-top: 5vh;
   display: grid;
@@ -119,7 +116,6 @@ header p {
   margin-right: 15vw;
   background-color: rgba(237, 54, 54, 0.2);
   color: rgba(238, 238, 238, 0.8);
-  padding: 1vw;
 }
 
 .second {
@@ -130,7 +126,6 @@ header p {
   margin-left: 15vw;
   margin-right: 15vw;
   color: white;
-  padding: 1vw;
 }
 
 .third {
@@ -141,7 +136,6 @@ header p {
   margin-left: 15vw;
   margin-right: 15vw;
   color: white;
-  padding: 1vw;
 }
 
 .border {
@@ -161,7 +155,6 @@ header p {
   margin-left: 15vw;
   margin-right: 15vw;
   color: white;
-  padding: 1vw;
 }
 
 .fourth p:nth-of-type(2) {
@@ -172,7 +165,7 @@ header p {
   padding: 1vw;
   background-color: #E83F57;
   color: white;
-  margin-left: 65vw;
+  margin-left: 73vw;
   margin-top: 2vh;
 }
 
@@ -188,15 +181,16 @@ header p {
   padding-top: 5vh;
 }
 
-.footerFirst{
+.footerFirst {
   display: grid;
   grid-template-rows: 20% 10% 10% 10%;
 }
- .footerFirst p:nth-of-type(1) {
+
+.footerFirst p:nth-of-type(1) {
   font-size: calc(21px + 0.390625vw);
 }
 
-.footerSec{
+.footerSec {
   display: grid;
   grid-template-rows: 20% 10% 10%;
 
@@ -205,15 +199,16 @@ header p {
 .footerSec p:nth-of-type(1) {
   font-size: calc(21px + 0.390625vw);
 
-} 
-.footerthird{
+}
+
+.footerthird {
   display: grid;
   align-items: center;
   grid-template-rows: 20% 20%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
   grid-template-areas: "social social social social"
-                        "twit face linke insta";
+    "twit face linke insta";
 }
 
 .footerthird p:nth-of-type(1) {
@@ -222,19 +217,21 @@ header p {
   height: 100%;
 }
 
-#twitter{
+#twitter {
   grid-area: twit;
 }
-#facebook{
+
+#facebook {
   grid-area: face;
 
 }
-#linkedin{
+
+#linkedin {
   grid-area: linke;
 }
 
-#insta{
-  grid-area:insta;
+#insta {
+  grid-area: insta;
 
 }
 
