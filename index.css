@@ -165,36 +165,41 @@ footer {
   padding-left: 5vw;
   grid-template-columns: 1fr 1fr 1fr;
   color: white;
-  margin-top: 15vh;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .footerFirst {
   margin-top: 5vh;
 }
 
-.footerFirst p:nth-child(1) {
+
+.footerFirst p:nth-of-type(1) {
   font-size: calc(22.5px + 0.390625vw);
   margin-bottom: 1vh;
 }
 
-.footerSec p:nth-child(1) {
+.footerSec p:nth-of-type(1) {
   font-size: calc(22.5px + 0.390625vw);
   margin-bottom: 1vh;
 }
 
-.footerthird p:nth-child(1) {
+.footerthird p:nth-of-type(1) {
   font-size: calc(22.5px + 0.390625vw);
   margin-bottom: 1vh;
 }
 
 .footerSec {
   margin-top: 5vh;
+  padding-right: 2vw;
+
 }
 
 .footerthird {
   margin-top: 5vh;
 
 }
+
 
 
   

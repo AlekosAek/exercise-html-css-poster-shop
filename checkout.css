@@ -6,6 +6,10 @@
 
 body {
   font-family: "Fira Sans";
+  background-color: black;
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: calc(15px + 0.390625vw);
 }
 
 
@@ -157,6 +161,10 @@ header p {
   color: white;
 }
 
+.antals{
+  padding-left: 2vw;
+}
+
 .fourth p:nth-of-type(2) {
   grid-area: number;
 }
@@ -165,10 +173,100 @@ header p {
   padding: 1vw;
   background-color: #E83F57;
   color: white;
-  margin-left: 73vw;
   margin-top: 2vh;
+  margin-left: 60vw;
+  margin-right: 15vw;
+  width: 24vw;
+  margin-bottom:5vh;
+
+
+
 }
 
+footer {
+  background-color: gray;
+
+}
+
+.allFooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footerFirst {
+  margin-top: 5vh;
+}
+
+
+.footerFirst p:nth-of-type(1) {
+  font-size: calc(22.5px + 0.390625vw);
+  margin-bottom: 1vh;
+}
+
+.footerSec p:nth-of-type(1) {
+  font-size: calc(22.5px + 0.390625vw);
+  margin-bottom: 1vh;
+}
+
+.footerthird p:nth-of-type(1) {
+  font-size: calc(22.5px + 0.390625vw);
+  margin-bottom: 1vh;
+}
+
+.footerSec {
+  margin-top: 5vh;
+  padding-right: 2vw;
+
+}
+
+.footerthird {
+  margin-top: 5vh;
+
+}
+
+@media screen and (max-width: 481px) { /* tablet */
+  header{
+    font-size:calc(45px + 0.390625vw);
+  }
+
+  .taBort1 {
+    font-size:calc(12px + 0.390625vw);
+    width: 80%;
+    color: white;
+    margin-left: 1vw;
+    padding: 0.2vw;
+    align-self: center;
+  }
+
+  .rubrik {
+    font-size:103vw;
+    margin-bottom: 1vh;
+    margin-left: 0.5vw;
+  }
+  footer{
+    font-size: calc(12px + 0.390625vw);
+
+  }
+  .footerFirst p:nth-of-type(1) {
+    font-size: calc(17px + 0.390625vw);
+  }
+
+  .footerSec p:nth-of-type(1) {
+    font-size: calc(17px + 0.390625vw);
+  }
+
+  .footerthird p:nth-of-type(1) {
+    font-size: calc(17px + 0.390625vw);
+  }
+  .footerthird {
+    padding-right: 15vw;
+  }
+}
+
+/* 
 .allFooter {
   display: grid;
   padding-right: 15vw;
@@ -235,7 +333,7 @@ header p {
 
 }
 
-
+ */
 /* .table {
   margin-top: 5vh;
   height: 40vh;
