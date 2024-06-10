@@ -80,9 +80,11 @@ header p {
 
 .first_photo>p {
   color: #000000;
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(18px + 0.390625vw);
   padding-left: 1vw;
   align-self: center;
+  font-size: 3vw;
+
 }
 
 #foto {
@@ -106,9 +108,10 @@ header p {
 
 .second_photo>p {
   color: #000000;
-  font-size: calc(15px + 0.390625vw);
   padding-left: 1vw;
   align-self: center;
+  font-size: 3vw;
+
 
 }
 
@@ -241,10 +244,12 @@ footer {
     align-self: center;
   }
 
-  .rubrik {
-    font-size:103vw;
-    margin-bottom: 1vh;
-    margin-left: 0.5vw;
+  .first_photo>p {
+    font-size: calc(12px + 0.390625vw);
+  }
+
+  .second_photo>p{
+    font-size: calc(12px + 0.390625vw);
   }
   footer{
     font-size: calc(12px + 0.390625vw);
